@@ -1,6 +1,6 @@
 # Learning Roadmap for R Shiny Web Application Development
 
-This document serves as a comprehensive guide to learn R and Shiny Web Application development with a project-based approach.
+This document serves as a comprehensive guide to learning R and Shiny Web Application development with a project-based approach for programmers familiar with coding and R. There would be a brief reminder on the basic concepts. Still, you can always dig deeper into topics.
 
 ## Learning Plan
 
@@ -21,7 +21,7 @@ This document serves as a comprehensive guide to learn R and Shiny Web Applicati
    - Writing custom functions.
 
 5. **Data Manipulation with R**
-   - Getting started with dplyr, tidyr packages.
+   - Getting started with `dplyr`, `tidyr` packages.
 
 6. **Basic Data Visualization with R**
    - Start with basic plotting functions in R.
