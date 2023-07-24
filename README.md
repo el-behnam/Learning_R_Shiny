@@ -1,77 +1,24 @@
-# Learning Roadmap for R Shiny Web Application Development
+# Self-teaching R Shiny Web application
 
-This document serves as a comprehensive guide to learning R and Shiny Web Application development with a project-based approach for programmers familiar with coding and R. There would be a brief reminder on the basic concepts. Still, you can always dig deeper into topics.
+## Introduction
 
-## Learning Plan
+I'm a Computer Scientist and decided to learn about the R shiny package and how to make a web application for my dataset for an improvement in one of my work-related projects. 
 
-### Weeks 1-2: Basics of R
+I created this repository to share my learning plan and steps with others out there. I thought it would help me to stay organized and motivated while it would be good for my resume, future reference, and others trying to figure that out.
 
-1. **R Syntax and Basic Operations**
-   - Variables, assignment, and data types.
-   - Arithmetic and logical operations.
+I tried to watch some YouTube videos but I'm more comfortable with reading and learning. Also, I can go in a way that is suited to my exact need and learn deeply about the function instead of just incorporating some tools without actually understanding what is going on. 
 
-2. **Data Structures in R**
-   - Vectors, matrices, lists, data frames.
+I have to mention that OF COURSE I used the help of dear ChatGPT in guidance and extracting deeper understanding.
 
-3. **Control Flow in R**
-   - Conditions (`if-else`), loops (`for`, `while`).
+## Learning Path: From basic R to advanced R shiny
 
-4. **Basic R Functions**
-   - Built-in functions like `sort()`, `mean()`, `sum()`, etc.
-   - Writing custom functions.
+In the [Learning Roadmap](./Learning_roadmap.md) file I will list the concepts and topics in each week. I hope this is good for everyone, but I have a habit of skipping some details that are obvious to me.
 
-5. **Data Manipulation with R**
-   - Getting started with `dplyr`, `tidyr` packages.
-
-6. **Basic Data Visualization with R**
-   - Start with basic plotting functions in R.
-
-### Weeks 3-4: Introduction to R Shiny
-
-1. **Introduction to Shiny and its Architecture**
-   - Understand what Shiny is and how it works.
-   - Understand the difference between `ui.R` and `server.R`.
-
-2. **Basics of Reactive Programming**
-   - Understanding reactive expressions, reactive values, and reactive conductors.
-
-3. **Understand UI Layout and Design**
-   - How to layout your app using `fluidPage`, `sidebarLayout`, etc.
-   - Using UI widgets like `sliderInput`, `numericInput`, etc.
-
-4. **Practice Building Basic Shiny Apps**
-   - Build a basic Shiny App using the learnt concepts.
-
-### Weeks 5-6: Deep Dive into R Shiny
-
-1. **Explore Various Input and Output Options in Shiny**
-   - Using various types of inputs (`selectInput`, `checkboxInput`, etc) and outputs (`plotOutput`, `tableOutput`, etc).
-
-2. **Understand Reactivity Concepts, observeEvent and eventReactive**
-   - Understand how observeEvent and eventReactive work and when to use them.
-
-3. **Practice with More Complex UI and Server Logic**
-   - Building a complex Shiny App using multiple inputs and outputs.
-
-### Weeks 7-8: Data Manipulation and Visualization in R Shiny
-
-1. **Use tidyverse Packages for Data Manipulation in Shiny Apps**
-   - Using `dplyr`, `tidyr`, and other tidyverse packages inside Shiny.
-
-2. **Visualize Data Using ggplot2 and Plotly in Shiny Apps**
-   - Making static and interactive plots in Shiny.
-
-### Weeks 9-10: Deployment and Debugging
-
-1. **Learn to Debug Shiny Apps**
-   - Using the `browser()` function, understanding error messages.
-
-2. **Understand How to Deploy Shiny Apps on Shiny Server and Shinyapps.io**
-   - Deploy your Shiny App on a server or Shinyapps.io.
+I tried to start from the beginning. I always need to remember how was each programming language when I come back to them after a while so I removed the burden of getting myself familiarized with R programming language in the future and dedicated the first two weeks to writing a small introduction that covers the basic coding skills in R. 
 
 ## Side Project: Gene Expression Visualization App
 
-Throughout this learning journey, we will be working on a side project. The project is to create a Shiny Web Application for visualizing gene expression data. The data can be obtained from public biological databases like NCBI, EBI etc. The app will have features like:
+Throughout this learning journey, we will be working on a side project. The project is to create a Shiny Web Application for visualizing gene expression data. Here is the [detailed explanation of the project](./Project.md). You can obtain the data from public biological databases like NCBI, EBI etc. The app will have features like:
 
 - Viewing gene expression data in a tabular format
 - Filtering genes based on user input
