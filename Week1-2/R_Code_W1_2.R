@@ -99,3 +99,34 @@ print(data_frame)
 data_frame$BMI <- data_frame$weight / (data_frame$height/100)^2
 print("Data Frame after adding new column:")
 print(data_frame)
+
+# R script for Lesson 3: Control Flow in R
+
+# 1. Conditions (`if-else`)
+# Define a variable `x` with a value
+x <- 10
+
+# An `if-else` statement that checks if `x` is greater than, equal to, or less than 5
+if (x > 5) {
+    print("x is greater than 5")
+} else if (x == 5) {
+    print("x is equal to 5")
+} else {
+    print("x is less than 5")
+}
+
+# 2. Loops (`for`, `while`)
+# A `for` loop that iterates over a vector of numbers from 1 to 5
+for (i in 1:5) {
+    print(paste("This is iteration number", i))
+}
+
+# Define a variable `y` with a value
+y <- 1
+
+# A `while` loop that keeps running as long as `y` is less than or equal to 5
+while (y <= 5) {
+    print(paste("y is currently", y))
+    # increment y by 1 in each iteration
+    y <- y + 1
+}

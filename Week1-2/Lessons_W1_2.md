@@ -32,7 +32,7 @@ Logical operators in R include `<` (less than), `>` (greater than), `==` (exactl
 
 In this lesson, we will discuss R's primary data structures, including vectors, matrices, lists, and data frames.
 
-#### Topics:
+### Topics:
 - Vectors: A vector is a basic data structure in R which can hold elements of one type.
 - Matrices: A matrix is a two-dimensional data structure in R where elements are arranged in a two-dimensional grid.
 - Lists: A list is a data structure that can hold elements of different types.
@@ -84,6 +84,18 @@ In this lesson, we will understand how to control the flow of code execution usi
 - Conditions (`if-else`): An if statement can be written by using the `if` keyword. In R, the else if keyword is written as `else if` and `else` to execute code if the original if statement and any preceding else if statements are FALSE.
 - Loops (`for`, `while`): In R, the loop is used to iterate the block of code. R has the standard loop structures found in other programming languages, including `for`, `while`, and `repeat`, providing a way to loop over a block of code and thereby reduce the repetition of code.
 
+#### Conditions (`if-else`)
+
+- Conditional statements allow us to make decisions in our code based on specific conditions. R provides the `if`, `else if`, and `else` keywords for this purpose.
+- The `if` statement takes a logical condition and executes the code within its block if the condition is `TRUE`.
+- Multiple conditions can be checked in sequence using the `else if` statement. If the condition for `if` is `FALSE`, then the `else if` condition is checked. If the `else if` condition is `TRUE`, the code within the `else if` block is executed.
+- The `else` statement captures all other scenarios when the preceding `if` and `else if` conditions are `FALSE`. The code within the `else` block is then executed.
+- Remember, the order of conditions in `if`, `else if`, and `else` matters. The code checks conditions from top to bottom. Once a TRUE condition is found, the code within that block is executed and no further conditions are checked.
+#### Loops (for, while)
+
+- Loops are a powerful control structure that allow a section of code to be repeated multiple times.
+- A `for` loop in R is used to iterate over a sequence (vector) or a list of values. For each iteration, the loop variable takes on a value from the sequence. The loop then executes the code block with this value. Once the block of code is executed for each item in the list or vector, the `for` loop ends.
+- The `while` loop in R, on the other hand, begins by testing a condition. If the condition is `TRUE`, the loop executes the accompanying block of code. After each execution, it retests the condition and continues repeating until the condition is `FALSE`. Be cautious with `while` loops, as they can create infinite loops if not handled correctly.
 ### Resources:
 - [If else & loops - R Programming](https://www.youtube.com/watch?v=F2wasPxHd7M)
 - [Control Structures](https://www.statmethods.net/management/controlstructures.html)
