@@ -130,3 +130,50 @@ while (y <= 5) {
     # increment y by 1 in each iteration
     y <- y + 1
 }
+
+# R script for Lesson 4: Basic R Functions
+
+# Built-in functions
+# ==================
+
+# Let's define a numeric vector
+num_vec <- c(1, 2, 3, 4, 5)
+
+# Use built-in function `mean()` to calculate the average
+avg <- mean(num_vec)
+print(paste("The average of num_vec is:", avg))
+
+# Use built-in function `sum()` to calculate the sum
+total <- sum(num_vec)
+print(paste("The sum of num_vec is:", total))
+
+# Use built-in function `min()` to find the minimum value
+min_val <- min(num_vec)
+print(paste("The minimum value in num_vec is:", min_val))
+
+# Use built-in function `max()` to find the maximum value
+max_val <- max(num_vec)
+print(paste("The maximum value in num_vec is:", max_val))
+
+
+# Custom functions
+# =================
+
+# Define a custom function to calculate the range (max - min)
+range_func <- function(x) {
+  # The function takes one argument, x, which should be a numeric vector
+  
+  # Calculate the maximum and minimum of the vector
+  max_val <- max(x)
+  min_val <- min(x)
+  
+  # Calculate the range
+  range_val <- max_val - min_val
+  
+  # Return the range
+  return(range_val)
+}
+
+# Now we can use our custom function
+vec_range <- range_func(num_vec)
+print(paste("The range of num_vec is:", vec_range))

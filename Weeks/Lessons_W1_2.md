@@ -108,8 +108,28 @@ In this lesson, we will learn how to use built-in functions in R, and we will al
 - Built-in Functions: R provides a wide array of built-in functions like `mean()`, `sum()`, `min()`, `max()`, etc.
 - Custom Functions: You can also write your own functions in R, which can be as simple or complex as you need them to be. The `function()` command is used to create functions.
 
+#### Built-in Functions:
+Built-in functions are pre-defined functions that come with R. They are a part of the R language core or available in the base package and are readily usable. These functions perform a variety of tasks and can operate on many types of data structures including vectors, matrices, lists, and data frames. Examples of these built-in functions include:
+
+- `mean()`: Calculates the average of the elements in a numeric vector.
+- `sum()`: Adds up all the elements of a numeric vector.
+- `min()`: Returns the smallest value from a numeric vector.
+- `max()`: Returns the largest value from a numeric vector.
+
+These functions are designed to make data manipulation and statistical analysis straightforward and efficient. 
+
+#### Custom Functions:
+In addition to using built-in functions, R also allows you to write your own functions. This can be extremely useful when you have a complex task that needs to be done multiple times, or when you want to create a new operation that is not readily available as a built-in function. Custom functions in R are created using the `function()` command.
+
+The basic syntax of a function in R is as follows:
+
+```R
+function_name <- function(arg1, arg2, ...){
+  # Code here
+  return(value)
+}
+```
 ### Resources:
-- [R Functions - R Programming Tutorial](https://www.youtube.com/watch?v=m2k9Jhceo-0)
 - [Writing Functions](https://adv-r.hadley.nz/functions.html)
 
 ## Lesson 5: Data Manipulation with R
