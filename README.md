@@ -25,3 +25,8 @@ Throughout this learning journey, we will be working on a side project. The proj
 - Visualizing gene expression levels across various conditions or experiments using plots
 
 For each week, dedicate some time specifically to the project. It will be a practical application of the concepts you're learning, solidifying your understanding and giving you real-world coding experience. Good luck!
+
+## Useful Resources
+Consider referring to these resources:
+- [Mastering Shiny](https://mastering-shiny.org/) by Hadley Wickham
+- [Shiny](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html) from Rstudio

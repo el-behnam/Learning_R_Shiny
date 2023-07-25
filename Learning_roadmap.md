@@ -22,9 +22,10 @@ This document serves as a comprehensive guide to learning R and Shiny Web Applic
 
 5. **Data Manipulation with R**
    - Getting started with `dplyr`, `tidyr` packages.
+   - Learn to use the `%>%` (pipe operator).
 
 6. **Basic Data Visualization with R**
-   - Start with basic plotting functions in R.
+   - Start with basic plotting functions in R and ggplot2 basics.
 
 ### Weeks 3-4: Introduction to R Shiny
 
@@ -34,6 +35,7 @@ This document serves as a comprehensive guide to learning R and Shiny Web Applic
 
 2. **Basics of Reactive Programming**
    - Understanding reactive expressions, reactive values, and reactive conductors.
+   - Exercises on `reactiveValues` and `observe` and `observeEvent` functions.
 
 3. **Understand UI Layout and Design**
    - How to layout your app using `fluidPage`, `sidebarLayout`, etc.
@@ -51,7 +53,7 @@ This document serves as a comprehensive guide to learning R and Shiny Web Applic
    - Understand how observeEvent and eventReactive work and when to use them.
 
 3. **Practice with More Complex UI and Server Logic**
-   - Building a complex Shiny App using multiple inputs and outputs.
+   - Building a complex Shiny App using multiple inputs and outputs. Consider how to use modules to organize and modularize your code.
 
 ### Weeks 7-8: Data Manipulation and Visualization in R Shiny
 
@@ -59,12 +61,21 @@ This document serves as a comprehensive guide to learning R and Shiny Web Applic
    - Using `dplyr`, `tidyr`, and other tidyverse packages inside Shiny.
 
 2. **Visualize Data Using ggplot2 and Plotly in Shiny Apps**
-   - Making static and interactive plots in Shiny.
+   - Making static and interactive plots in Shiny. Explore how to use `renderPlot` and `ggplotOutput` to make interactive ggplot2 graphics.
 
 ### Weeks 9-10: Deployment and Debugging
 
 1. **Learn to Debug Shiny Apps**
-   - Using the `browser()` function, understanding error messages.
+   - Using the `browser()` function, understanding error messages. Learn to use Shiny's built-in debugging tools like `validate` and `need`.
 
 2. **Understand How to Deploy Shiny Apps on Shiny Server and Shinyapps.io**
-   - Deploy your Shiny App on a server or Shinyapps.io.
+   - Deploy your Shiny App on a server or Shinyapps.io. Consider learning about user authentication and server security.
+
+### Weeks 11-12: Final Project Review and Optimization
+
+1. **Performance Testing and Code Refactoring**
+   - Test the performance of your Shiny App. Refactor your code for readability and maintainability.
+
+2. **User Interface Polishing**
+   - Improve the look and feel of your Shiny App for a better user experience.
+
