@@ -10,7 +10,7 @@ In this lesson, we will learn about the basic syntax of R, including how to assi
 - Arithmetic Operations: These include operations like addition, subtraction, multiplication, division, exponentiation, etc.
 - Logical Operations: These include operations like less than, greater than, equal to, not equal to, etc.
 
-### Variables and Data Types
+#### Variables and Data Types
 
 A variable in R is an object which holds data. You can assign a value to a variable using the `<-` or `=` operator. R has various types of data. Here are the basic types:
 
@@ -19,7 +19,7 @@ A variable in R is an object which holds data. You can assign a value to a varia
 3. **Character**: These are string literals. You denote character strings with either matching double (") or single (') quotes. Example: `s <- "Hello, world!"`.
 4. **Logical**: The boolean data type. The possible values are `TRUE`, `FALSE`, and `NA`. Example: `t <- TRUE`.
 
-### Arithmetic and Logical Operations
+#### Arithmetic and Logical Operations
 
 Arithmetic operations in R include addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), integer division (`%/%`), modulus (`%%`), and exponentiation (`^`).
 
@@ -32,11 +32,45 @@ Logical operators in R include `<` (less than), `>` (greater than), `==` (exactl
 
 In this lesson, we will discuss R's primary data structures, including vectors, matrices, lists, and data frames.
 
-### Topics:
+#### Topics:
 - Vectors: A vector is a basic data structure in R which can hold elements of one type.
 - Matrices: A matrix is a two-dimensional data structure in R where elements are arranged in a two-dimensional grid.
 - Lists: A list is a data structure that can hold elements of different types.
 - Data Frames: A data frame is a table where each column contains values of one variable and each row contains one set of values from each column.
+
+#### Vectors
+
+A vector is the most basic data structure in R. It's a sequence of data elements of the same basic type. Members in a vector are officially called components. However, we will often use the term elements interchangeably.
+
+- **Creating Vectors**: In R, you create a vector with the combine function `c()`. You place the vector elements separated by a comma between the parentheses. 
+
+- **Operations on Vectors**: Vectors can be used in arithmetic expressions, in which case the operations are performed element by element. Vectors can also be compared element by element with relational operators.
+
+#### Matrices
+
+In R, a matrix is a collection of elements of the same data type (numeric, character, or logical) arranged into a fixed number of rows and columns. Since you are allowed to mix one-column matrices and vectors in one matrix, they are not exactly the same.
+
+- **Creating Matrices**: You can create a matrix in R with the `matrix()` function. Consider the below example that creates a 5x3 matrix.
+
+- **Operations on Matrices**: Matrices can be transposed, inverted, multiplied, and so on. However, remember that these operations are not necessarily performed element-by-element.
+
+#### Lists
+
+Lists are the R objects which contain elements of different types like numbers, strings, vectors, and another list inside it. Lists can also include elements of different modes (numeric, character, logical) and classes (vector, factor, dataframe, etc).
+
+- **Creating Lists**: In R, you can create a list with the `list()` function.
+
+- **Accessing List Elements**: List elements can be accessed using the index of the element in square brackets `[]`.
+
+#### Data Frames
+
+Data frames are more general than matrices because they can store different types of data. A data frame is the most common way of storing data in R, and if used systematically makes data analysis easier.
+
+- **Creating Data Frames**: In R, you can create a data frame with the `data.frame()` function. 
+
+- **Operations on Data Frames**: You can perform operations on data frames like adding or deleting a column, renaming a column, etc.
+
+In the next sections, we will look at some examples and explore these concepts in more detail.
 
 ### Resources:
 - [R Data Structures - R Programming Tutorial](https://www.youtube.com/watch?v=lL0s1coNtRk)
