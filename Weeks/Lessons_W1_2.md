@@ -97,7 +97,7 @@ In this lesson, we will understand how to control the flow of code execution usi
 - A `for` loop in R is used to iterate over a sequence (vector) or a list of values. For each iteration, the loop variable takes on a value from the sequence. The loop then executes the code block with this value. Once the block of code is executed for each item in the list or vector, the `for` loop ends.
 - The `while` loop in R, on the other hand, begins by testing a condition. If the condition is `TRUE`, the loop executes the accompanying block of code. After each execution, it retests the condition and continues repeating until the condition is `FALSE`. Be cautious with `while` loops, as they can create infinite loops if not handled correctly.
 ### Resources:
-- [If else & loops - R Programming](https://www.youtube.com/watch?v=F2wasPxHd7M)
+- [R If Else Statement (4 Examples)](https://statisticsglobe.com/if-else-statement-in-r/)
 - [Control Structures](https://www.statmethods.net/management/controlstructures.html)
 
 ## Lesson 4: Basic R Functions
